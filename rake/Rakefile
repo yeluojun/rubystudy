@@ -1,0 +1,4 @@
+import "tasks/hello.rake"
+task :example_one do
+  puts "this is task one"
+end
