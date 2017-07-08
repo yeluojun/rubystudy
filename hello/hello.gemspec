@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ohye/version"
+require "hello/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ohye"
-  spec.version       = Ohye::VERSION
+  spec.name          = "hello"
+  spec.version       = Hello::VERSION
   spec.authors       = ["yeluojun"]
   spec.email         = ["635143970@qq.com"]
 
-  spec.summary       = "gem study"
-  spec.description   = "write a gem for study"
-  spec.homepage      = "https://github.com/yeluojun/rubystudy/ohye"
+  spec.summary       = "ruby study gem -2"
+  spec.description   = "something"
+  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

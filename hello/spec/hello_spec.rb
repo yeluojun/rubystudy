@@ -1,8 +1,8 @@
 require "spec_helper"
 
-RSpec.describe Ohye do
+RSpec.describe Hello do
   it "has a version number" do
-    expect(Ohye::VERSION).not_to be nil
+    expect(Hello::VERSION).not_to be nil
   end
 
   it "does something useful" do
