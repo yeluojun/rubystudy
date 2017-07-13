@@ -1,4 +1,0 @@
-source "https://gems.ruby-china.org/"
-gem "ohye", github: 'yeluojun/ohye'
-# Specify your gem's dependencies in hello.gemspec
-gemspec
